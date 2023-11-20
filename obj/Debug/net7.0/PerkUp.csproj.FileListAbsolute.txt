@@ -12,3 +12,17 @@ C:\Users\tyler\Desktop\Learning projects\PerkUp Assistant\PerkUp\obj\Debug\net7.
 C:\Users\tyler\Desktop\Learning projects\PerkUp Assistant\PerkUp\obj\Debug\net7.0\PerkUp.pdb
 C:\Users\tyler\Desktop\Learning projects\PerkUp Assistant\PerkUp\obj\Debug\net7.0\PerkUp.genruntimeconfig.cache
 C:\Users\tyler\Desktop\Learning projects\PerkUp Assistant\PerkUp\obj\Debug\net7.0\ref\PerkUp.dll
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\bin\Debug\net7.0\PerkUp.exe
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\bin\Debug\net7.0\PerkUp.deps.json
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\bin\Debug\net7.0\PerkUp.runtimeconfig.json
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\bin\Debug\net7.0\PerkUp.dll
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\bin\Debug\net7.0\PerkUp.pdb
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.AssemblyInfoInputs.cache
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.AssemblyInfo.cs
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.csproj.CoreCompileInputs.cache
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.dll
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\refint\PerkUp.dll
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.pdb
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\PerkUp.genruntimeconfig.cache
+C:\Users\tyler\Desktop\Learning projects\Perkup Dev\obj\Debug\net7.0\ref\PerkUp.dll
