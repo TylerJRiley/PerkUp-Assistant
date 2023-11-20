@@ -7,6 +7,7 @@ using Microsoft.VisualBasic;
 
 
 //Todo Notes: 
+//add File manager class
 //add new user input class
 //refactor
 //make inventory manager testing class
