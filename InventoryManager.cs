@@ -9,7 +9,7 @@ using Microsoft.VisualBasic;
 //Todo Notes: 
 //add File manager class
 //add new user input class
-//refactor and split up class 
+//refactor and split up class checking again
 //make inventory manager testing class
 
 
