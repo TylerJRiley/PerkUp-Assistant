@@ -28,9 +28,7 @@ namespace PerkUp
 
             inventoryManager.ViewAllList();
     
-            inventoryManager.InspectItemByName(inventoryManager.InputStringToItem());
 
-            inventoryManager.ViewAllList();
 
 
 

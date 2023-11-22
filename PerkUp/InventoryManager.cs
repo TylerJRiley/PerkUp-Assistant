@@ -32,19 +32,6 @@ public class InventoryManager
         
     }
 
-    private List<InventoryItem> SortByID (List<InventoryItem> item) 
-    {
-        return item.OrderBy(i => i.itemID).ToList();
-    } 
-    private List<InventoryItem> SortByName(List<InventoryItem> item)
-    {
-        return item.OrderBy(i => i.itemName).ToList();
-    }
-   
-   public List<InventoryItem> ListReturn()
-   {
-    return inventoryItems;
-   }
     public InventoryItem InputStringToItem()
     {
        
@@ -121,7 +108,7 @@ public class InventoryManager
     { 
         if (inventoryItems.Count != 0)
         {
-            foreach (InventoryItem item in SortByID(inventoryItems))
+            foreach (InventoryItem item in ListUtil.SortListBy(inventoryItems, i => i.itemID))
             {
                 Console.WriteLine($"Item ID: {item.itemID} - Name: {item.itemName} - Catigoriy: {item.itemCategory} - Quanity in stock: {item.itemStockQuantity} - Reorder Level: {item.itemReorderLevel}");
             }
@@ -375,7 +362,7 @@ public class InventoryManager
         int avalableItemID = 0;
         if(listToSearch.Any() && !freedIDs.Any()) //Check to See if anything is curently in the list
         {
-            List<InventoryItem> listInOrder = SortByID(inventoryItems); //Sorts the list by Item ID # In accending order
+            List<InventoryItem> listInOrder = ListUtil.SortListBy(inventoryItems,i => i.itemID); //Sorts the list by Item ID # In accending order
             bool gapFound = false; //Flag set to determan if there is a gap in the ID # in sequince
 
             

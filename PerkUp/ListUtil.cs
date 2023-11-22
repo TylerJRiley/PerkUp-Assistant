@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace PerkUp;
 
@@ -29,5 +30,11 @@ public class ListUtil
             return false;
 
         }
+    }
+
+    public static List<T> SortListBy<T,TKey>(List<T> listRef, Func<T, TKey> keySelector)
+    {
+        
+        return (List<T>)listRef.OrderBy(keySelector).ToList();
     }
 }
